@@ -118,7 +118,8 @@ def plot_bmi_blood_pressure(df):
 # Main function
 def main():
     # Load data from Excel file
-    file_path = "C:/Users/202101775/Downloads/codsoft_project/data.xlsx"
+   
+    file_path = " https://github.com/EBRamphabana/Customer/blob/main/data.xlsx"
     df = pd.read_excel(file_path)
 
     # Streamlit app
